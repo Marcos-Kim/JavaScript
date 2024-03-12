@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercício em JS usando alert</title>
+</head>
+
+<body>
+    <h1>Alerta</h1>
+    <script>
+
+        var nome = window.prompt('Qual é o seu nome?')
+        var idade = window.prompt('Qual é a sua idade?')
+        var familiar = window.prompt('Qual o nome do seu familiar mais próximo?')
+        var idfamiliar = window.prompt('Qual a idade do seu familiar mais próximo?')
+        var data = new Date()
+        var dataCompletaSimplificada = data.toLocaleDateString()
+
+        //window.prompt('Qual é o seu nome?')
+        //window.prompt('Qual é a sua idade?')
+        //window.prompt('Qual o nome do seu familiar mais próximo?')
+        //window.prompt('Qual a idade do seu familiar mais próximo?')
+
+        document.write("<p>Meu nome é: " + nome + "<br>Minha idade é: " + idade + "<br>O nome do meu familiar é: " + familiar + "<br>Sua idade é: " + idfamiliar + "<br>Data de inscrição: " + dataCompletaSimplificada + "</p>")
+        //console.log("Olá me chamo "+nome+", estudo "+curso+", no SENAC. Hoje é "+dataCompletaSimplificada+"")
+    </script>
+</body>
+
+</html>

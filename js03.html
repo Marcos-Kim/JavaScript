@@ -10,13 +10,21 @@
 <body>
 <h1>Documento JavaScript</h1>
 <script>
-//alert('funcionou!')
+alert('funcionou!')
 var curso = "Desenvolvedor Front-end"
 var data = new Date()
+var dia = data.getDate()
+var mes = data.getMonth()  //é preciso incrementar uma posição para dar um get na lista correta.
+var ano = data.getFullYear()
+var dataCompletaSimplificada = data.toLocaleDateString()
+var nome = "Marcos"
 
-document.write(curso)
-console.log(data)
-alert(curso)
+//document.write(ano)
+//console.log(data)
+alert(dataCompletaSimplificada)
+//document.write("<p>Olá me chamo <b>"+nome+"</b>, estudo "+curso+" no SENAC. Hoje é "+dia+"/"+mes+"/"+ano+".</p>")
+document.write("<p>Olá me chamo <b>"+nome+"</b>, estudo "+curso+" no SENAC. Hoje é "+dataCompletaSimplificada+".</p>")
+console.log("Olá me chamo "+nome+", estudo "+curso+", no SENAC. Hoje é "+dataCompletaSimplificada+"")
 </script>
 </body>
 </html>
