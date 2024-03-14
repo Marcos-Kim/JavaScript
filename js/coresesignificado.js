@@ -1,0 +1,1 @@
+button('azul').style.backgroundColor = 'blue'
