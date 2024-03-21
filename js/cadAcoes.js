@@ -1,6 +1,6 @@
 let nome = document.getElementById('nome')
 let idade = document.getElementById('idade')
-let salario = document.getElementById('.salario')
+let salario = document.getElementById('salario')
 //let cargo = document.getElementById('cargo')
 let cargo = document.querySelector('#cargo')
 let btnsalvar = document.getElementById("btnsalvar")

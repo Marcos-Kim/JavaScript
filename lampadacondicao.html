@@ -15,6 +15,7 @@
         onmouseout="mudarLampada(2)" onclick="mudarLampada(3)"/>
     <script>
         let quebrada = false;
+        let audio = new Audio("audio/audio_lampada_03.mp3")
         function mudarLampada(tipo) {
 
             if (tipo == 1) {
@@ -31,6 +32,7 @@
 
             if (tipo == 3) {
                 arquivo = "img/quebrada.jpg"
+                audio.play()
             }
             //se o tipo ==3
             //quebrada
