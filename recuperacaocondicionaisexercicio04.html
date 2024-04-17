@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação - Condicionais - Exercício 4</title>
+</head>
+<body>
+    <!--<div id="container">-->
+        <h1>JavaScript - Condicionais - Exercício 04 - Recuperação</h1>
+        <h2>Qual a sua idade?</h2>
+    <!--</div>-->
+
+    <input id="age" />
+
+    <button onclick="myFunction()">Clique aqui</button>
+
+    <p id="resultado"></p>
+
+    <script>
+    
+    function myFunction("resultado"){
+        let crianca = document.getElementById("age"){
+        if (age <= 12) document.write("Você é uma criança.")
+        }
+        let adolescente = document.getElementById("age"){
+        if (age >=13 && age <=19) document.write("Você é um adolescente.")
+        }
+        let adulto = document.getElementById("age"){
+        if (age >=20 $$ >=59) document.write("Você é um adulto.")
+        }
+        let idoso = document.getElementById("age"){
+        if (age >=60) document.write("Você é um idoso.")
+        }
+        document.getElementById("resultado").innerHTML = myFunction + "resultado"
+    
+    }
+    </script>
+
+<!--
+<h1>JavaScript Comparison</h1>
+<h2>Qual a sua faixa etária?</h2>
+
+<p>Digite sua idade:</p>
+
+<input id="age" value="18" />
+
+<button onclick="myFunction()">Clique aqui</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+let age = document.getElementById("age").value;
+  let voteable = (age < 18) ? "Too young":"Old enough";
+  document.getElementById("demo").innerHTML = voteable + " to vote.";
+}
+</script>
+-->
+</body>
+</html>
